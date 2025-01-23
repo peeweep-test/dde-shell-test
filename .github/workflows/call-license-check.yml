@@ -13,4 +13,4 @@ concurrency:
 
 jobs:
   license-check:
-    uses: linuxdeepin/.github/.github/workflows/license-check.yml@master
+    uses: peeweep-test/.github/.github/workflows/license-check.yml@main
