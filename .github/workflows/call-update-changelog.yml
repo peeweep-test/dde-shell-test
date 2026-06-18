@@ -20,16 +20,15 @@ on:
       create_pr:
         description: "Create a pull request after generating changelog"
         required: false
-        default: false
+        default: true
         type: boolean
 
 jobs:
   update_changelog:
-    uses: peeweep-test/.github/.github/workflows/update-changelog.yml@main
+    uses: mhduiy/dde-shell/.github/workflows/update-changelog.yml@master
     with:
       version: ${{ inputs.version }}
       base_branch: ${{ inputs.base_branch }}
       distribution: ${{ inputs.distribution }}
       create_pr: ${{ inputs.create_pr }}
     secrets: inherit
-
