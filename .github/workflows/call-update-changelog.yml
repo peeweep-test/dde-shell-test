@@ -25,7 +25,7 @@ on:
 
 jobs:
   update_changelog:
-    uses: peeweep-test/.github/.github/workflows/update-changelog.yml@master
+    uses: mhduiy/dde-shell/.github/workflows/update-changelog.yml@master
     with:
       version: ${{ inputs.version }}
       base_branch: ${{ inputs.base_branch }}
