@@ -1,3 +1,17 @@
+dde-shell (0.0.41) unstable; urgency=medium
+
+  * Update call-clacheck.yml
+  * Update call-clacheck.yml
+  * Update call-license-check.yml
+  * Create call-update-changelog.yml
+  * Update call-update-changelog.yml
+  * Update call-update-changelog.yml
+  * Change branch reference from 'master' to 'main'
+  * Fix missing newline at end of README.zh_CN.md
+  * Update call-update-changelog.yml
+
+ -- Deepin CI <deepin-ci@deepin.org>  Thu, 18 Jun 2026 16:08:20 +0800
+
 dde-shell (0.0.40) unstable; urgency=medium
 
   * fix: incorrect height for quickpanel's childplugin(Issue: 10036)
