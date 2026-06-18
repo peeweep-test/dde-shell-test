@@ -35,4 +35,4 @@ $ dpkg-buildpackage -uc -us -nc -b # 构建二进制软件包
 
 ## 许可协议
 
-**dde-shell** 使用 [GPL-3.0-or-later](LICENSE) 许可协议进行发布。
+**dde-shell** 使用 [GPL-3.0-or-later](LICENSE) 许可协议进行发布。111
