@@ -2,6 +2,8 @@
 
 The `dde-shell` project provides a plugin system that integrates plugins developed based on this plugin system into DDE.
 
+asdasdasd
+
 ## Dependencies
 
 Check `debian/control` for build-time and runtime dependencies, or use `cmake` to check the missing required dependencies.
