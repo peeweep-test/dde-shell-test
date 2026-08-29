@@ -1,0 +1,4 @@
+
+
+echo $lshw
+echo $decode
